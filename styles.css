@@ -1,0 +1,90 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+h1 {
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 10px;
+}
+h2 {
+  font-weight: 400;
+  color: hsl(75, 94%, 57%);
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+p {
+  color: hsl(0, 0%, 70%);
+  margin: 0;
+  line-height: 1.5;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+}
+.card {
+  background-color: hsl(0, 0%, 12%);
+  height: auto;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Button style */
+.social-btn {
+  display: block;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 20%);
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  min-width: 100px;
+}
+
+/* Hover effect */
+.social-btn:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: #333;
+  transform: translateY(-2px);
+}
+
+/* Active (when clicked) */
+.social-btn:active {
+  background-color: hsl(75, 94%, 57%);
+  border-color: #333;
+  transform: translateY(0);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
